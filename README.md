@@ -1,2 +1,5 @@
-# SailsAngular
-### a Sails application
+SailsAngular
+============
+
+SailsJs integration with AngularJs.
+
