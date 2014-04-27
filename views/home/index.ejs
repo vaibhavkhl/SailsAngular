@@ -1,2 +1,10 @@
-<input type="text" ng-model="message">
-<h1>{{message}}</h1>
+<div>
+  <form ng-submit="submitTodo(todoData)">
+      <input type="text" name="title" ng-model="todoData.title">
+      <button type="submit">Submit</button>
+  </form>
+</div>
+List of todos-
+<div ng-repeat="todo in todos">
+  <h1>{{todo.title}}</h1>
+</div>
